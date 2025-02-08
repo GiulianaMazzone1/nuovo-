@@ -1,0 +1,106 @@
+body {
+    margin: 0;
+}
+
+img {
+    max-width: 100%;
+    display: block;
+}
+
+header {
+     background-color: black;
+    position: fixed;
+    width: 100%;
+    padding: 10px;
+    z-index: 10;
+}
+
+.info {
+    position: relative;
+}
+
+.hero-title{
+        font-size: 100px;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        color: white;
+        text-align: center;
+}
+
+/* Stile generale */
+body {
+    font-family: 'Times New Roman', serif;
+    background-color: #f8f8f8;
+    margin: 0;
+    padding: 0;
+}
+
+/* Stile delle sezioni */
+.section {
+    padding: 50px 10%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Sezione con sfondo beige */
+.section.dark {
+    background-color: #d4b895; /* Colore beige */
+    text-align: center;
+    flex-direction: column;
+}
+
+/* Titolo principale */
+.section.dark h2 {
+    font-size: 22px;
+    font-weight: bold;
+}
+
+/* Testo della prima sezione */
+.section.dark p {
+    font-size: 16px;
+    max-width: 600px;
+    margin: 10px auto;
+    line-height: 1.5;
+}
+
+/* Segnaposto per immagine */
+.image-placeholder {
+    width: 100%;
+    height: 150px; /* Regola in base all'immagine reale */
+    background-color: #ccc; /* Grigio chiaro */
+    margin-top: 20px;
+}
+
+/* Sezione chiara con due colonne */
+.section.light {
+    background-color: #f8f8f8;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+/* Stile delle colonne */
+.column {
+    width: 45%;
+    background-color: #d4b895; /* Beige */
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Titoli delle colonne */
+.column h3 {
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+}
+
+/* Testo nelle colonne */
+.column p {
+    font-size: 16px;
+    line-height: 1.5;
+    text-align: center;
+}
